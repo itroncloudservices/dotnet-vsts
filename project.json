@@ -1,10 +1,15 @@
 {
-  "version": "1.0.0-*",
+  "version": "0.1.0-*",
   "buildOptions": {
     "debugType": "portable",
     "emitEntryPoint": true
   },
-  "dependencies": {},
+  "dependencies": {
+    "Microsoft.Extensions.CommandLineUtils": "1.0.0"
+  },
+  "tools": {
+    "Microsoft.Extensions.SecretManager.Tools": "1.0.0-preview2-final"
+  },
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {
