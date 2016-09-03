@@ -53,5 +53,10 @@ dotnet vsts -h
 You should be able to see the help output, which looks like this:
 
 ```
-YADA
+dotnet-vsts - Visual Studio Team Services CLI
+
+Usage: dotnet-vsts [command]
+
+Commands:
+  projects  Get a list of team projects
 ```
