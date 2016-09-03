@@ -1,14 +1,27 @@
 {
   "version": "0.1.0-*",
   "buildOptions": {
+    "outputName": "dotnet-vsts",
     "debugType": "portable",
     "emitEntryPoint": true
   },
+  "description": "Contributed command line tool to manage Visual Studio Team Services.",
   "dependencies": {
     "Microsoft.Extensions.CommandLineUtils": "1.0.0"
   },
-  "tools": {
-    "Microsoft.Extensions.SecretManager.Tools": "1.0.0-preview2-final"
+  
+  "packOptions": {
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/itroncloudservices/dotnet-vsts"
+    },
+    "tags": [
+      "vsts",
+      "contrib",
+      "vso",
+      "tfs",
+      "client"
+    ]
   },
   "frameworks": {
     "netcoreapp1.0": {

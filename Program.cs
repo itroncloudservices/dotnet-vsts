@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.CommandLineUtils;
 
-namespace ConsoleApplication
+namespace Microsoft.VisualStudio.Services.Contrib.Tools
 {
     public class Program
     {
@@ -9,9 +9,9 @@ namespace ConsoleApplication
         {
             var app = new CommandLineApplication
             {
-                Name = "vsts",
-                Description = "Interacts with a visual studio service via commands",
-                FullName = "vsts - Visual Studio Team Services CLI"
+                Name = "dotnet-vsts",
+                Description = "Command line tool to manage Visual Studio Team Services.",
+                FullName = "dotnet-vsts - Visual Studio Team Services CLI"
             };
 
             app.Command("projects", c =>
